@@ -59,3 +59,8 @@ typings/
 
 # transpiled output
 dist
+
+.spec-workflow
+
+package-lock.json*
+pnpm-lock.json*
