@@ -1,7 +1,7 @@
 {
-  "name": "webext-bridge",
-  "version": "6.0.1",
-  "description": "Messaging in Web Extensions made easy. Out of the box.",
+  "name": "webext-bridge-fix",
+  "version": "1.0.0",
+  "description": "Messaging in Web Extensions made easy. Out of the box.Revised edition",
   "keywords": [
     "chrome",
     "extension",
@@ -13,16 +13,17 @@
     "devtools",
     "script",
     "crx",
-    "bridge"
+    "bridge",
+    "side=panel"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zikaari/webext-bridge.git"
+    "url": "https://github.com/username100861/webext-bridge-fix.git"
   },
   "author": "Neek Sandhu <neek.sandhu@outlook.com>",
   "scripts": {
-    "build": "tsup src/index.ts src/background.ts src/content-script.ts src/devtools.ts src/options.ts src/popup.ts src/window.ts --format esm,cjs --dts",
+    "build": "tsup src/index.ts src/background.ts src/content-script.ts src/devtools.ts src/options.ts src/popup.ts src/side-panel.ts src/window.ts --format esm,cjs --dts",
     "watch": "npm run build -- --watch",
     "release": "bumpp --commit --push --tag && npm run build && npm publish"
   },
@@ -55,6 +56,10 @@
     "./window": {
       "import": "./dist/window.js",
       "require": "./dist/window.cjs"
+    },
+    "./side-panel": {
+      "import": "./dist/side-panel.js",
+      "require": "./dist/side-panel.cjs"
     }
   },
   "typesVersions": {
@@ -79,6 +84,9 @@
       ],
       "window": [
         "dist/window.d.ts"
+      ],
+      "side-panel": [
+        "dist/side-panel.d.ts"
       ]
     }
   },
