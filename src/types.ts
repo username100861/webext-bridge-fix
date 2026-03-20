@@ -1,8 +1,6 @@
 import type { JsonValue, Jsonify } from 'type-fest'
 
 export type RuntimeContext =
-  | 'side-panel'
-  | 'service-worker'
   | 'devtools'
   | 'background'
   | 'popup'
@@ -81,12 +79,12 @@ export type GetDataType<
   Fallback extends JsonValue = undefined,
 > = K extends keyof ProtocolMap
   ? ProtocolMap[K] extends (...args: infer Args) => any
-  ? Args['length'] extends 0
-  ? undefined
-  : Args[0]
-  : ProtocolMap[K] extends ProtocolWithReturn<infer Data, any>
-  ? Data
-  : ProtocolMap[K]
+    ? Args['length'] extends 0
+      ? undefined
+      : Args[0]
+    : ProtocolMap[K] extends ProtocolWithReturn<infer Data, any>
+      ? Data
+      : ProtocolMap[K]
   : Fallback;
 
 
@@ -95,8 +93,8 @@ export type GetReturnType<
   Fallback extends JsonValue = undefined
 > = K extends keyof ProtocolMap
   ? ProtocolMap[K] extends (...args: any[]) => infer R
-  ? R
-  : ProtocolMap[K] extends ProtocolWithReturn<any, infer Return>
-  ? Return
-  : void
+    ? R
+    : ProtocolMap[K] extends ProtocolWithReturn<any, infer Return>
+      ? Return
+      : void
   : Fallback;
