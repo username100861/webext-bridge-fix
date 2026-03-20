@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/serversideup/webext-bridge/blob/main/README.zh-CN.md"><img alt="中文" src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-blue.svg"></a>
+	<a href="https://github.com/username100861/webext-bridge-fix/blob/main/README.zh-CN.md"><img alt="中文" src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-blue.svg"></a>
 </p>
 
 <p align="center">
@@ -16,11 +16,8 @@
   <a href="https://serversideup.net/discord"><img alt="Discord" src="https://img.shields.io/discord/910287105714954251?color=blueviolet"></a>
 </p>
 
-> [!IMPORTANT]  
-> **`webext-bridge` just joined the Server Side Up family of open source projects.** [Read the announcement →](https://github.com/serversideup/webext-bridge/discussions/74)
-
 # Introduction
-**Messaging in web extensions made easy. Batteries included.** Reduce headache and simplify the effort of keeping data in sync across different parts of your extension. `webext-bridge` is a tiny library that provides a simple and consistent API for sending and receiving messages between different parts of your web extension, such as `background`, `content-script`, `devtools`, `popup`, `options`, and `window` contexts.
+**Messaging in web extensions made easy. Batteries included.** Reduce headache and simplify the effort of keeping data in sync across different parts of your extension. `webext-bridge` is a tiny library that provides a simple and consistent API for sending and receiving messages between different parts of your web extension, such as `background`, `content-script`, `devtools`, `popup`, `options`, `side-panel`, and `window` contexts.
 
 ## Resources
 <!-- - **[Website](https://serversideup.net/open-source/webext-bridge/)** overview of the product.
@@ -42,55 +39,10 @@ Need help getting started? Join our Discord community and we'll help you out!
 
 <a href="https://serversideup.net/discord"><img src="https://serversideup.net/wp-content/themes/serversideup/images/open-source/join-discord.svg" title="Join Discord"></a>
 
-## Our Sponsors
-All of our software is free an open to the world. None of this can be brought to you without the financial backing of our sponsors.
-
-<p align="center"><a href="https://github.com/sponsors/serversideup"><img src="https://521public.s3.amazonaws.com/serversideup/sponsors/sponsor-box.png" alt="Sponsors"></a></p>
-
-#### Individual Supporters
-<!-- supporters --><p align="center"><a href="https://github.com/sponsors/serversideup"><img src="https://521public.s3.amazonaws.com/serversideup/sponsors/sponsor-empty-state.png" alt="Sponsors"></a></p><!-- supporters -->
-
-## About Us
-We're [Dan](https://twitter.com/danpastori) and [Jay](https://twitter.com/jaydrogers) - a two person team with a passion for open source products. We created [Server Side Up](https://serversideup.net) to help share what we learn.
-
-<div align="center">
-
-| <div align="center">Dan Pastori</div>                  | <div align="center">Jay Rogers</div>                                 |
-| ----------------------------- | ------------------------------------------ |
-| <div align="center"><a href="https://twitter.com/danpastori"><img src="https://serversideup.net/wp-content/uploads/2023/08/dan.jpg" title="Dan Pastori" width="150px"></a><br /><a href="https://twitter.com/danpastori"><img src="https://serversideup.net/wp-content/themes/serversideup/images/open-source/twitter.svg" title="Twitter" width="24px"></a><a href="https://github.com/danpastori"><img src="https://serversideup.net/wp-content/themes/serversideup/images/open-source/github.svg" title="GitHub" width="24px"></a></div>                        | <div align="center"><a href="https://twitter.com/jaydrogers"><img src="https://serversideup.net/wp-content/uploads/2023/08/jay.jpg" title="Jay Rogers" width="150px"></a><br /><a href="https://twitter.com/jaydrogers"><img src="https://serversideup.net/wp-content/themes/serversideup/images/open-source/twitter.svg" title="Twitter" width="24px"></a><a href="https://github.com/jaydrogers"><img src="https://serversideup.net/wp-content/themes/serversideup/images/open-source/github.svg" title="GitHub" width="24px"></a></div>                                       |
-
-</div>
-
-### Find us at:
-
-* **📖 [Blog](https://serversideup.net)** - Get the latest guides and free courses on all things web/mobile development.
-* **🙋 [Community](https://community.serversideup.net)** - Get friendly help from our community members.
-* **🤵‍♂️ [Get Professional Help](https://serversideup.net/professional-support)** - Get video + screen-sharing support from the core contributors.
-* **💻 [GitHub](https://github.com/serversideup)** - Check out our other open source projects.
-* **📫 [Newsletter](https://serversideup.net/subscribe)** - Skip the algorithms and get quality content right to your inbox.
-* **🐥 [Twitter](https://twitter.com/serversideup)** - You can also follow [Dan](https://twitter.com/danpastori) and [Jay](https://twitter.com/jaydrogers).
-* **❤️ [Sponsor Us](https://github.com/sponsors/serversideup)** - Please consider sponsoring us so we can create more helpful resources.
-
-## Our products
-If you appreciate this project, be sure to check out our other projects.
-
-### 📚 Books
-- **[The Ultimate Guide to Building APIs & SPAs](https://serversideup.net/ultimate-guide-to-building-apis-and-spas-with-laravel-and-nuxt3/)**: Build web & mobile apps from the same codebase.
-- **[Building Multi-Platform Browser Extensions](https://serversideup.net/building-multi-platform-browser-extensions/)**: Ship extensions to all browsers from the same codebase.
-
-### 🛠️ Software-as-a-Service
-- **[Bugflow](https://bugflow.io/)**: Get visual bug reports directly in GitHub, GitLab, and more.
-- **[SelfHost Pro](https://selfhostpro.com/)**: Connect Stripe or Lemonsqueezy to a private docker registry for self-hosted apps.
-
-### 🌍 Open Source
-- **[serversideup/php Docker Images](https://serversideup.net/open-source/docker-php/)**: PHP Docker images optimized for Laravel and running PHP applications in production.
-- **[Financial Freedom](https://github.com/serversideup/financial-freedom)**: Open source alternative to Mint, YNAB, & Monarch Money.
-- **[AmplitudeJS](https://521dimensions.com/open-source/amplitudejs)**: Open-source HTML5 & JavaScript Web Audio Library.
-- **[webext-bridge](https://github.com/serversideup/webext-bridge)**: Messaging in web extensions made easy. Batteries included.
-
 ---
+All of the above are sourced from the original project.
 
 ## Acknowledgments
 
 This project is forked from [zikaari/webext-bridge](https://github.com/zikaari/webext-bridge.git).  
-Added side-panel communication support.
+I have added communication support for side-panels.
