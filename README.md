@@ -1,6 +1,11 @@
 <p align="center">
 		<a href="https://serversideup.net/open-source/webext-bridge/"><img src="./.github/header.png" width="1200" alt="webext-bridge Header" /></a>
 </p>
+
+<p align="center">
+	<a href="https://github.com/serversideup/webext-bridge/blob/main/README.zh-CN.md"><img alt="中文" src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-blue.svg"></a>
+</p>
+
 <p align="center">
 	<a href="https://actions-badge.atrox.dev/serversideup/webext-bridge/goto?ref=main"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fserversideup%2Fwebext-bridge%2Fbadge%3Fref%3Dmain&style=flat" /></a>
 	<a href="https://github.com/serversideup/webext-bridge/blob/main/LICENSE" target="_blank"><img src="https://badgen.net/github/license/serversideup/webext-bridge" alt="License"></a>
@@ -82,3 +87,10 @@ If you appreciate this project, be sure to check out our other projects.
 - **[Financial Freedom](https://github.com/serversideup/financial-freedom)**: Open source alternative to Mint, YNAB, & Monarch Money.
 - **[AmplitudeJS](https://521dimensions.com/open-source/amplitudejs)**: Open-source HTML5 & JavaScript Web Audio Library.
 - **[webext-bridge](https://github.com/serversideup/webext-bridge)**: Messaging in web extensions made easy. Batteries included.
+
+---
+
+## Acknowledgments
+
+This project is forked from [zikaari/webext-bridge](https://github.com/zikaari/webext-bridge.git).  
+Added side-panel communication support.
